@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/SEEK_IO.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/SEEK_IO.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/SEEK_IO.dir/seek_io.c.o  -o ../bin/SEEK_IO 

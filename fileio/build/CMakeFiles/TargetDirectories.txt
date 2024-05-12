@@ -1,0 +1,3 @@
+/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles/rebuild_cache.dir
+/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles/edit_cache.dir
+/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles/CP.dir

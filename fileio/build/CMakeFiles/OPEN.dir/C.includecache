@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../lib/error_functions.h
+
+/home/firefly/Codes/C/TLPI/fileio/open.c
+fcntl.h
+-
+stdio.h
+-
+sys/stat.h
+-
+error_functions.h
+/home/firefly/Codes/C/TLPI/fileio/error_functions.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/COPY.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/COPY.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/COPY.dir/copy.c.o  -o ../bin/COPY 
