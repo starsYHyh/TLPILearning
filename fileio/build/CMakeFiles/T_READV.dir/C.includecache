@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../lib/error_functions.h
+
+../../lib/get_num.h
+
+../../lib/tlpi_hdr.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+get_num.h
+../../lib/get_num.h
+error_functions.h
+../../lib/error_functions.h
+
+/home/firefly/Codes/C/TLPI/fileio/src/t_readv.c
+sys/stat.h
+-
+sys/uio.h
+-
+fcntl.h
+-
+tlpi_hdr.h
+/home/firefly/Codes/C/TLPI/fileio/src/tlpi_hdr.h
+
