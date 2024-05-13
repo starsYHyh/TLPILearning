@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/FCNTL.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/FCNTL.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/FCNTL.dir/src/fcntlTest.c.o  -o ../bin/FCNTL 

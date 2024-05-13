@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CP
+# Target rules for targets named TEST
 
 # Build rule for target.
-CP: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CP
-.PHONY : CP
+TEST: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TEST
+.PHONY : TEST
 
 # fast build rule for target.
-CP/fast:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/build
-.PHONY : CP/fast
+TEST/fast:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/build
+.PHONY : TEST/fast
 
 home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
@@ -129,7 +129,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/e
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
 home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/error_functions.c.i
@@ -138,7 +138,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/e
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 
 home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/error_functions.c.s
@@ -147,7 +147,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/e
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 
 home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c.o
@@ -156,7 +156,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/get_num.c.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.o
 
 home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c.i
@@ -165,7 +165,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/get_num.c.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.i
 
 home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c.s
@@ -174,35 +174,35 @@ home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/get_num.c.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.s
 
-src/cp.o: src/cp.c.o
+src/Test.o: src/Test.c.o
 
-.PHONY : src/cp.o
+.PHONY : src/Test.o
 
 # target to build an object file
-src/cp.c.o:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/src/cp.c.o
-.PHONY : src/cp.c.o
+src/Test.c.o:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/src/Test.c.o
+.PHONY : src/Test.c.o
 
-src/cp.i: src/cp.c.i
+src/Test.i: src/Test.c.i
 
-.PHONY : src/cp.i
+.PHONY : src/Test.i
 
 # target to preprocess a source file
-src/cp.c.i:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/src/cp.c.i
-.PHONY : src/cp.c.i
+src/Test.c.i:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/src/Test.c.i
+.PHONY : src/Test.c.i
 
-src/cp.s: src/cp.c.s
+src/Test.s: src/Test.c.s
 
-.PHONY : src/cp.s
+.PHONY : src/Test.s
 
 # target to generate assembly for a file
-src/cp.c.s:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/src/cp.c.s
-.PHONY : src/cp.c.s
+src/Test.c.s:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/src/Test.c.s
+.PHONY : src/Test.c.s
 
 # Help Target
 help:
@@ -212,16 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CP"
+	@echo "... TEST"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.s"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.s"
-	@echo "... src/cp.o"
-	@echo "... src/cp.i"
-	@echo "... src/cp.s"
+	@echo "... src/Test.o"
+	@echo "... src/Test.i"
+	@echo "... src/Test.s"
 .PHONY : help
 
 

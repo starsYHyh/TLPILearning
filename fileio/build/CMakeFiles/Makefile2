@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/fileio/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CP.dir/all
+all: CMakeFiles/TEST.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CP.dir/clean
+clean: CMakeFiles/TEST.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CP.dir
+# Target rules for target CMakeFiles/TEST.dir
 
 # All Build rule for target.
-CMakeFiles/CP.dir/all:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/depend
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles --progress-num=1,2,3,4 "Built target CP"
-.PHONY : CMakeFiles/CP.dir/all
+CMakeFiles/TEST.dir/all:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/depend
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles --progress-num=1,2,3,4 "Built target TEST"
+.PHONY : CMakeFiles/TEST.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CP.dir/rule: cmake_check_build_system
+CMakeFiles/TEST.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CP.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TEST.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles 0
-.PHONY : CMakeFiles/CP.dir/rule
+.PHONY : CMakeFiles/TEST.dir/rule
 
 # Convenience name for target.
-CP: CMakeFiles/CP.dir/rule
+TEST: CMakeFiles/TEST.dir/rule
 
-.PHONY : CP
+.PHONY : TEST
 
 # clean rule for target.
-CMakeFiles/CP.dir/clean:
-	$(MAKE) -f CMakeFiles/CP.dir/build.make CMakeFiles/CP.dir/clean
-.PHONY : CMakeFiles/CP.dir/clean
+CMakeFiles/TEST.dir/clean:
+	$(MAKE) -f CMakeFiles/TEST.dir/build.make CMakeFiles/TEST.dir/clean
+.PHONY : CMakeFiles/TEST.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

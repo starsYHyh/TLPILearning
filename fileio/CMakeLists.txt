@@ -12,7 +12,7 @@ set(SRC ${PROJECT_SOURCE_DIR}/src)
 
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(CP
+add_executable(TEST
     ${LIBSRC}
-    ${SRC}/cp.c
+    ${SRC}/Test.c
 )
