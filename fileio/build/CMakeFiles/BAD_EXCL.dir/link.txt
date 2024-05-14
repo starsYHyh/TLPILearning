@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -rdynamic CMakeFiles/BAD_EXCL.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/BAD_EXCL.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/BAD_EXCL.dir/src/bad_exclusive_open.c.o  -o ../bin/BAD_EXCL 

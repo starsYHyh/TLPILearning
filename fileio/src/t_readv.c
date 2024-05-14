@@ -3,7 +3,7 @@
 #include <fcntl.h>
 #include "tlpi_hdr.h"
 
-/* 测试分散输入 */
+/* 测试分散输入到不同缓冲区，之后将缓冲区中的内容集中输出 */
 int main(int argc, char *argv[]) {
     int fd; 
     struct iovec iov[3];    // Structure for scatter/gather I/O.
@@ -11,13 +11,13 @@ int main(int argc, char *argv[]) {
 #define STR_SIZE 20
     char str[STR_SIZE];     // Second buffer
     struct stat myStruct;   // Third buffer
-    ssize_t numRead, totRequired;
+    ssize_t numRead, totRequired, numWrite, totSupplied;
 
-    if (argc != 2 || strcmp(argv[1], "--help") == 0)
+    if (argc < 2 || strcmp(argv[1], "--help") == 0)
         usageErr("%s file\n", argv[0]);
     fd = open(argv[1], O_RDONLY);
     if (fd == -1)
-        errExit("open");
+        errExit("open src file");
     totRequired = 0;
 
     // 将文件中的内容分散输入到三个缓冲区中
@@ -40,5 +40,20 @@ int main(int argc, char *argv[]) {
     if (numRead < totRequired)
         printf("Read fewer bytes than requested\n");
     printf("total bytes requested: %ld; bytes read: %ld\n", (long)totRequired, (long)numRead);
-    exit(EXIT_SUCCESS);    
+    exit(EXIT_SUCCESS);   
+
+    totSupplied = totRequired;
+    fd = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC);
+    if (fd == -1)
+        errExit("open dst file");
+    // 将缓冲区中的内容集中输出
+    numWrite = writev(fd, iov, 3);
+    printf("numwrite = %ld\n", numWrite);
+    if (numWrite == -1)
+        errExit("writev");
+
+    if (numWrite < totRequired)
+        printf("Write fewer bytes than supplied\n");
+    printf("total bytes supplied: %ld; bytes write: %ld\n", (long)totSupplied, (long)numWrite);
+    exit(EXIT_SUCCESS);
 } 
