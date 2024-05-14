@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/M_LARGE_FILE.dir/src/m_large_file.c.o  -o ../bin/M_LARGE_FILE 

@@ -7,9 +7,11 @@
 #define BUF_SIZE 1024
 #endif
 
-// 第四章课后
-// 将一个文件复制到一个或多个文件中
-// 当使用该程序复制一个包含空洞（连续的空字节）的普通文件时，目标文件的空洞与源文件保持一致。
+/*
+第四章课后
+将一个文件复制到一个或多个文件中
+当使用该程序复制一个包含空洞（连续的空字节）的普通文件时，目标文件的空洞与源文件保持一致。
+*/
 int main(int argc, char *argv[]) {
     int inputFd, outputFd, openFlags, ap;
     mode_t filePerms;

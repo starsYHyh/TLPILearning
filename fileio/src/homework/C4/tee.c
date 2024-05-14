@@ -6,9 +6,10 @@
 #define BUF_SIZE 1024
 #endif
 
-// 第四章课后
-// 从标准输入中读取数据，直至文件结尾，随后将数据写入标准输出和命令行参数所指定的文件。
-
+/*
+第四章课后
+从标准输入中读取数据，直至文件结尾，随后将数据写入标准输出和命令行参数所指定的文件。
+*/
 int main(int argc, char *argv[]) {
     Boolean isAppend = FALSE;
     if (argc < 2 || strcmp(argv[1], "--help") == 0 || 
