@@ -12,7 +12,7 @@ set(SRC ${PROJECT_SOURCE_DIR}/src)
 
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(M_LARGE_FILE
+add_executable(M_READV_WRITEV
     ${LIBSRC}
-    ${SRC}/m_large_file.c
+    ${SRC}/m_readv_writev.c
 )

@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named M_LARGE_FILE
+# Target rules for targets named M_READV_WRITEV
 
 # Build rule for target.
-M_LARGE_FILE: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 M_LARGE_FILE
-.PHONY : M_LARGE_FILE
+M_READV_WRITEV: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 M_READV_WRITEV
+.PHONY : M_READV_WRITEV
 
 # fast build rule for target.
-M_LARGE_FILE/fast:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/build
-.PHONY : M_LARGE_FILE/fast
+M_READV_WRITEV/fast:
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/build
+.PHONY : M_READV_WRITEV/fast
 
 home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
@@ -129,7 +129,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/e
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.o:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
 home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/error_functions.c.i
@@ -138,7 +138,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/e
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.i:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 
 home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/error_functions.c.s
@@ -147,7 +147,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/e
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.s:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 
 home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c.o
@@ -156,7 +156,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/get_num.c.o:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.o
 
 home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c.i
@@ -165,7 +165,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/get_num.c.i:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.i
 
 home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c.s
@@ -174,35 +174,35 @@ home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/get_num.c.s:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.s
 
-src/m_large_file.o: src/m_large_file.c.o
+src/m_readv_writev.o: src/m_readv_writev.c.o
 
-.PHONY : src/m_large_file.o
+.PHONY : src/m_readv_writev.o
 
 # target to build an object file
-src/m_large_file.c.o:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/src/m_large_file.c.o
-.PHONY : src/m_large_file.c.o
+src/m_readv_writev.c.o:
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/src/m_readv_writev.c.o
+.PHONY : src/m_readv_writev.c.o
 
-src/m_large_file.i: src/m_large_file.c.i
+src/m_readv_writev.i: src/m_readv_writev.c.i
 
-.PHONY : src/m_large_file.i
+.PHONY : src/m_readv_writev.i
 
 # target to preprocess a source file
-src/m_large_file.c.i:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/src/m_large_file.c.i
-.PHONY : src/m_large_file.c.i
+src/m_readv_writev.c.i:
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/src/m_readv_writev.c.i
+.PHONY : src/m_readv_writev.c.i
 
-src/m_large_file.s: src/m_large_file.c.s
+src/m_readv_writev.s: src/m_readv_writev.c.s
 
-.PHONY : src/m_large_file.s
+.PHONY : src/m_readv_writev.s
 
 # target to generate assembly for a file
-src/m_large_file.c.s:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/src/m_large_file.c.s
-.PHONY : src/m_large_file.c.s
+src/m_readv_writev.c.s:
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/src/m_readv_writev.c.s
+.PHONY : src/m_readv_writev.c.s
 
 # Help Target
 help:
@@ -212,16 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... M_LARGE_FILE"
+	@echo "... M_READV_WRITEV"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.s"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.s"
-	@echo "... src/m_large_file.o"
-	@echo "... src/m_large_file.i"
-	@echo "... src/m_large_file.s"
+	@echo "... src/m_readv_writev.o"
+	@echo "... src/m_readv_writev.i"
+	@echo "... src/m_readv_writev.s"
 .PHONY : help
 
 

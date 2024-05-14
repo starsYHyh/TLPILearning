@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/CHECKDUP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/CHECKDUP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/CHECKDUP.dir/src/checkDup.c.o  -o ../bin/CHECKDUP 

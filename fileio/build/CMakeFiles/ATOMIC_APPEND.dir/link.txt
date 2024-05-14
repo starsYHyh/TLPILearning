@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/ATOMIC_APPEND.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/ATOMIC_APPEND.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/ATOMIC_APPEND.dir/src/atomic_append.c.o  -o ../bin/ATOMIC_APPEND 

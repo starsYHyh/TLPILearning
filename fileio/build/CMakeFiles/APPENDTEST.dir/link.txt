@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/APPENDTEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/APPENDTEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/APPENDTEST.dir/src/appendTest.c.o  -o ../bin/APPENDTEST 

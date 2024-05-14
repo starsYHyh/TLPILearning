@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/fileio/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/M_LARGE_FILE.dir/all
+all: CMakeFiles/M_READV_WRITEV.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/M_LARGE_FILE.dir/clean
+clean: CMakeFiles/M_READV_WRITEV.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/M_LARGE_FILE.dir
+# Target rules for target CMakeFiles/M_READV_WRITEV.dir
 
 # All Build rule for target.
-CMakeFiles/M_LARGE_FILE.dir/all:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/depend
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles --progress-num=1,2,3,4 "Built target M_LARGE_FILE"
-.PHONY : CMakeFiles/M_LARGE_FILE.dir/all
+CMakeFiles/M_READV_WRITEV.dir/all:
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/depend
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles --progress-num=1,2,3,4 "Built target M_READV_WRITEV"
+.PHONY : CMakeFiles/M_READV_WRITEV.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/M_LARGE_FILE.dir/rule: cmake_check_build_system
+CMakeFiles/M_READV_WRITEV.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/M_LARGE_FILE.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/M_READV_WRITEV.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/fileio/build/CMakeFiles 0
-.PHONY : CMakeFiles/M_LARGE_FILE.dir/rule
+.PHONY : CMakeFiles/M_READV_WRITEV.dir/rule
 
 # Convenience name for target.
-M_LARGE_FILE: CMakeFiles/M_LARGE_FILE.dir/rule
+M_READV_WRITEV: CMakeFiles/M_READV_WRITEV.dir/rule
 
-.PHONY : M_LARGE_FILE
+.PHONY : M_READV_WRITEV
 
 # clean rule for target.
-CMakeFiles/M_LARGE_FILE.dir/clean:
-	$(MAKE) -f CMakeFiles/M_LARGE_FILE.dir/build.make CMakeFiles/M_LARGE_FILE.dir/clean
-.PHONY : CMakeFiles/M_LARGE_FILE.dir/clean
+CMakeFiles/M_READV_WRITEV.dir/clean:
+	$(MAKE) -f CMakeFiles/M_READV_WRITEV.dir/build.make CMakeFiles/M_READV_WRITEV.dir/clean
+.PHONY : CMakeFiles/M_READV_WRITEV.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

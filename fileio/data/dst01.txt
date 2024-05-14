@@ -1,0 +1,4 @@
+-rw-------TESTirefly firefly   0 May 13 14:19 bad_open
+-rw-rw-r-- 1 firefly firefly   0 May  9 18:33 dst01.txt
+-rw-r--r-- 1 firefly firefly  25 May  9 23:53 src01.txt
+-rw------- 1 firefly firefly   0 May 14 15:
