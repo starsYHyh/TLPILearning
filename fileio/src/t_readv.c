@@ -40,7 +40,6 @@ int main(int argc, char *argv[]) {
     if (numRead < totRequired)
         printf("Read fewer bytes than requested\n");
     printf("total bytes requested: %ld; bytes read: %ld\n", (long)totRequired, (long)numRead);
-    exit(EXIT_SUCCESS);   
 
     totSupplied = totRequired;
     fd = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC);
@@ -48,7 +47,6 @@ int main(int argc, char *argv[]) {
         errExit("open dst file");
     // 将缓冲区中的内容集中输出
     numWrite = writev(fd, iov, 3);
-    printf("numwrite = %ld\n", numWrite);
     if (numWrite == -1)
         errExit("writev");
 
