@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/stat.h>
+#include <stdbool.h>
 #include "tlpi_hdr.h"
 /*
 第五章课后
@@ -17,30 +18,20 @@ int main(int argc, char *argv[])
 {
     int fd, numBytes;
     if (argc < 4 || strcmp(argv[1], "--help") == 0)
-        usageErr("%s filename num-bytes content-to-write [x]", argv[0]);
-    numBytes = atol(argv[2]);
-    if (argc == 5 && strcmp(argv[4], "-x") == 0)
-    {
-        fd = open(argv[1], O_RDWR | O_CREAT, 
-            S_IWUSR | S_IRUSR | S_IWGRP | S_IRGRP | S_IWOTH | S_IROTH);
-        if (fd == -1)
-            errExit("open");
-        while (numBytes--)
-        {
-            lseek(fd, 0, SEEK_END);
-            write(fd, argv[3], 1);
-        }
-    }
-    else
-    {
-        fd = open(argv[1], O_RDWR | O_APPEND | O_CREAT, 
-            S_IWUSR | S_IRUSR | S_IWGRP | S_IRGRP | S_IWOTH | S_IROTH);
-        if (fd == -1)
-            errExit("open");
-        while (numBytes--)
-        {
-            write(fd, argv[3], 1);
-        }
+        usageErr("%s filename num-bytes content-to-write [x] \n"
+                  "'x' means use lseek() instead of O_APPEND\n", argv[0]);
+    numBytes = getInt(argv[2], 0, "num-bytes");
+    bool useLseek = (argc == 5 && strcmp(argv[4], "-x") == 0) ? true : false;
+    int flags = useLseek ? 0 : O_APPEND;
+    fd = open(argv[1], flags | O_RDWR | O_CREAT, S_IWUSR | S_IRUSR | S_IWGRP | S_IRGRP | S_IWOTH | S_IROTH);
+    if (fd == -1)
+        errExit("open");
+    while (numBytes--) {
+        if (useLseek)
+            if (lseek(fd, 0, SEEK_END) == -1)
+                errExit("lseek");
+        if (write(fd, argv[3], 1) == -1)
+            fatal("write() failed");
     }
     if (close(fd) == -1)
         errExit("close");

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/DISPLAY_ENV.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/DISPLAY_ENV.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/DISPLAY_ENV.dir/src/display_env.c.o  -o ../bin/DISPLAY_ENV 
