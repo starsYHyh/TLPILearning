@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/SETJMP_VARS.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/SETJMP_VARS.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/SETJMP_VARS.dir/src/setjmp_vars.c.o  -o ../bin/SETJMP_VARS 

@@ -3,12 +3,11 @@
 extern char **environ;
 
 int main(int argc, char *argv[]) {
-    // char **ep;
-    // for (ep = environ; *ep != NULL; ep++) 
-    //     puts(*ep);
-    // exit(EXIT_SUCCESS);
-
-    int a;
-    scanf("%d", &a);
-    int b = a + 10;
+    char **ep;
+    for (ep = environ; *ep != NULL; ep++) 
+        puts(*ep);
+    char *shpos = getenv("SHELL");
+    
+    puts(shpos);
+    exit(EXIT_SUCCESS);
 }

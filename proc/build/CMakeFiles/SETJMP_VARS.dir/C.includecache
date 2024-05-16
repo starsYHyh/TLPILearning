@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/firefly/Codes/C/TLPI/proc/src/setjmp_vars.c
+stdio.h
+-
+stdlib.h
+-
+setjmp.h
+-
+
