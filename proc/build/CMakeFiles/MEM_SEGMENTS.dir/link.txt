@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/MEM_SEGMENTS.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/MEM_SEGMENTS.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/MEM_SEGMENTS.dir/src/mem_segments.c.o  -o ../bin/MEM_SEGMENTS 

@@ -12,7 +12,7 @@ set(SRC ${PROJECT_SOURCE_DIR}/src)
 
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(SETJMP_VARS
+add_executable(M_SET_UNSET_ENV
     ${LIBSRC}
-    ${SRC}/setjmp_vars.c
+    ${SRC}/m_set_unset_env.c
 )

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/WRONG_JMP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/WRONG_JMP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/WRONG_JMP.dir/src/wrong_jmp.c.o  -o ../bin/WRONG_JMP 

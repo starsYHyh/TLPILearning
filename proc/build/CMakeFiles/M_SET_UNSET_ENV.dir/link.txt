@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/M_SET_UNSET_ENV.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/M_SET_UNSET_ENV.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/M_SET_UNSET_ENV.dir/src/m_set_unset_env.c.o  -o ../bin/M_SET_UNSET_ENV 
