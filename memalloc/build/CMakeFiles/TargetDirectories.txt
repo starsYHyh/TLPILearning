@@ -1,0 +1,3 @@
+/home/firefly/Codes/C/TLPI/memalloc/build/CMakeFiles/rebuild_cache.dir
+/home/firefly/Codes/C/TLPI/memalloc/build/CMakeFiles/edit_cache.dir
+/home/firefly/Codes/C/TLPI/memalloc/build/CMakeFiles/FREE_AND_SBRK.dir

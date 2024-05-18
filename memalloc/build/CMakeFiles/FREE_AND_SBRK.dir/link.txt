@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/FREE_AND_SBRK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/FREE_AND_SBRK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/FREE_AND_SBRK.dir/src/free_and_sbrk.c.o  -o ../bin/FREE_AND_SBRK 
