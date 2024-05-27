@@ -10,9 +10,11 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 set(SRC ${PROJECT_SOURCE_DIR}/src)
 
+include_directories(SRC)
+
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(FREE_AND_SBRK
+add_executable(UGID_FUNCTIONS_TEST
     ${LIBSRC}
-    ${SRC}/free_and_sbrk.c
+    ${SRC}/ugid_functions.c
 )

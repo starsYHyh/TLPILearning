@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/UGID_FUNCTIONS_TEST.dir/src/ugid_functions.c.o -o ../bin/UGID_FUNCTIONS_TEST 
