@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/user_groups/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/UGID_FUNCTIONS_TEST.dir/all
+all: CMakeFiles/SOURCE.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/UGID_FUNCTIONS_TEST.dir/clean
+clean: CMakeFiles/SOURCE.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/UGID_FUNCTIONS_TEST.dir
+# Target rules for target CMakeFiles/SOURCE.dir
 
 # All Build rule for target.
-CMakeFiles/UGID_FUNCTIONS_TEST.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/user_groups/build/CMakeFiles --progress-num=1,2,3,4 "Built target UGID_FUNCTIONS_TEST"
-.PHONY : CMakeFiles/UGID_FUNCTIONS_TEST.dir/all
+CMakeFiles/SOURCE.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/user_groups/build/CMakeFiles --progress-num=1,2,3,4 "Built target SOURCE"
+.PHONY : CMakeFiles/SOURCE.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/UGID_FUNCTIONS_TEST.dir/rule: cmake_check_build_system
+CMakeFiles/SOURCE.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/user_groups/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/UGID_FUNCTIONS_TEST.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SOURCE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/user_groups/build/CMakeFiles 0
-.PHONY : CMakeFiles/UGID_FUNCTIONS_TEST.dir/rule
+.PHONY : CMakeFiles/SOURCE.dir/rule
 
 # Convenience name for target.
-UGID_FUNCTIONS_TEST: CMakeFiles/UGID_FUNCTIONS_TEST.dir/rule
-.PHONY : UGID_FUNCTIONS_TEST
+SOURCE: CMakeFiles/SOURCE.dir/rule
+.PHONY : SOURCE
 
 # clean rule for target.
-CMakeFiles/UGID_FUNCTIONS_TEST.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/clean
-.PHONY : CMakeFiles/UGID_FUNCTIONS_TEST.dir/clean
+CMakeFiles/SOURCE.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/clean
+.PHONY : CMakeFiles/SOURCE.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

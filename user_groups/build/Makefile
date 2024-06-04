@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named UGID_FUNCTIONS_TEST
+# Target rules for targets named SOURCE
 
 # Build rule for target.
-UGID_FUNCTIONS_TEST: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 UGID_FUNCTIONS_TEST
-.PHONY : UGID_FUNCTIONS_TEST
+SOURCE: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOURCE
+.PHONY : SOURCE
 
 # fast build rule for target.
-UGID_FUNCTIONS_TEST/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/build
-.PHONY : UGID_FUNCTIONS_TEST/fast
+SOURCE/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/build
+.PHONY : SOURCE/fast
 
 home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.o
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
 home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/error_functions.c.i
@@ -142,7 +142,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/e
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 
 home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/error_functions.c.s
@@ -150,7 +150,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/e
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 
 home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c.o
@@ -158,7 +158,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/get_num.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.o
 
 home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c.i
@@ -166,7 +166,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/get_num.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.i
 
 home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c.s
@@ -174,32 +174,32 @@ home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/get_num.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.s
 
-src/ugid_functions.o: src/ugid_functions.c.o
-.PHONY : src/ugid_functions.o
+src/source.o: src/source.c.o
+.PHONY : src/source.o
 
 # target to build an object file
-src/ugid_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/src/ugid_functions.c.o
-.PHONY : src/ugid_functions.c.o
+src/source.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/src/source.c.o
+.PHONY : src/source.c.o
 
-src/ugid_functions.i: src/ugid_functions.c.i
-.PHONY : src/ugid_functions.i
+src/source.i: src/source.c.i
+.PHONY : src/source.i
 
 # target to preprocess a source file
-src/ugid_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/src/ugid_functions.c.i
-.PHONY : src/ugid_functions.c.i
+src/source.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/src/source.c.i
+.PHONY : src/source.c.i
 
-src/ugid_functions.s: src/ugid_functions.c.s
-.PHONY : src/ugid_functions.s
+src/source.s: src/source.c.s
+.PHONY : src/source.s
 
 # target to generate assembly for a file
-src/ugid_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UGID_FUNCTIONS_TEST.dir/build.make CMakeFiles/UGID_FUNCTIONS_TEST.dir/src/ugid_functions.c.s
-.PHONY : src/ugid_functions.c.s
+src/source.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SOURCE.dir/build.make CMakeFiles/SOURCE.dir/src/source.c.s
+.PHONY : src/source.c.s
 
 # Help Target
 help:
@@ -209,16 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... UGID_FUNCTIONS_TEST"
+	@echo "... SOURCE"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.s"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.s"
-	@echo "... src/ugid_functions.o"
-	@echo "... src/ugid_functions.i"
-	@echo "... src/ugid_functions.s"
+	@echo "... src/source.o"
+	@echo "... src/source.i"
+	@echo "... src/source.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/SOURCE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/SOURCE.dir/src/source.c.o -o ../bin/SOURCE 

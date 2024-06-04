@@ -14,7 +14,7 @@ include_directories(SRC)
 
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(UGID_FUNCTIONS_TEST
+add_executable(SOURCE
     ${LIBSRC}
-    ${SRC}/ugid_functions.c
+    ${SRC}/source.c
 )
