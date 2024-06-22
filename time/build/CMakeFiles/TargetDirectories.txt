@@ -1,0 +1,3 @@
+/home/firefly/Codes/C/TLPI/time/build/CMakeFiles/PROCESS_TIME.dir
+/home/firefly/Codes/C/TLPI/time/build/CMakeFiles/edit_cache.dir
+/home/firefly/Codes/C/TLPI/time/build/CMakeFiles/rebuild_cache.dir
