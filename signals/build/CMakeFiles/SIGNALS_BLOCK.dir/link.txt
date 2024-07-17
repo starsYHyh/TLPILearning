@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/SIGNALS_BLOCK.dir/src/signals_block.c.o -o ../bin/SIGNALS_BLOCK 
