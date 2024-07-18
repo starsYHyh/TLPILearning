@@ -1,7 +1,10 @@
 #define _GNU_SOURCE
 #include <signal.h>
 #include "tlpi_hdr.h"
-#include "signal_functions.h"
+
+/*
+测试阻塞SIGINT信号，并将等待的信号进行打印
+*/
 
 void printSigSet(const sigset_t *sigSet) {
     for (int sig = 1; sig < NSIG; sig++) 

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/signals/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SIGNALS_BLOCK.dir/all
+all: CMakeFiles/SIG_RECEIVER.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SIGNALS_BLOCK.dir/clean
+clean: CMakeFiles/SIG_RECEIVER.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SIGNALS_BLOCK.dir
+# Target rules for target CMakeFiles/SIG_RECEIVER.dir
 
 # All Build rule for target.
-CMakeFiles/SIGNALS_BLOCK.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4 "Built target SIGNALS_BLOCK"
-.PHONY : CMakeFiles/SIGNALS_BLOCK.dir/all
+CMakeFiles/SIG_RECEIVER.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target SIG_RECEIVER"
+.PHONY : CMakeFiles/SIG_RECEIVER.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SIGNALS_BLOCK.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SIGNALS_BLOCK.dir/all
+CMakeFiles/SIG_RECEIVER.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SIG_RECEIVER.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 0
-.PHONY : CMakeFiles/SIGNALS_BLOCK.dir/rule
+.PHONY : CMakeFiles/SIG_RECEIVER.dir/rule
 
 # Convenience name for target.
-SIGNALS_BLOCK: CMakeFiles/SIGNALS_BLOCK.dir/rule
-.PHONY : SIGNALS_BLOCK
+SIG_RECEIVER: CMakeFiles/SIG_RECEIVER.dir/rule
+.PHONY : SIG_RECEIVER
 
 # clean rule for target.
-CMakeFiles/SIGNALS_BLOCK.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/clean
-.PHONY : CMakeFiles/SIGNALS_BLOCK.dir/clean
+CMakeFiles/SIG_RECEIVER.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/clean
+.PHONY : CMakeFiles/SIG_RECEIVER.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

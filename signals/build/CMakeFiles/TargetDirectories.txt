@@ -1,3 +1,3 @@
-/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles/SIGNALS_BLOCK.dir
+/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles/SIG_RECEIVER.dir
 /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles/edit_cache.dir
 /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles/rebuild_cache.dir

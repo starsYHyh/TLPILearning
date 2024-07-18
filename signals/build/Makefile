@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SIGNALS_BLOCK
+# Target rules for targets named SIG_RECEIVER
 
 # Build rule for target.
-SIGNALS_BLOCK: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SIGNALS_BLOCK
-.PHONY : SIGNALS_BLOCK
+SIG_RECEIVER: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SIG_RECEIVER
+.PHONY : SIG_RECEIVER
 
 # fast build rule for target.
-SIGNALS_BLOCK/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/build
-.PHONY : SIGNALS_BLOCK/fast
+SIG_RECEIVER/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/build
+.PHONY : SIG_RECEIVER/fast
 
 home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.o
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
 home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/error_functions.c.i
@@ -142,7 +142,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/e
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 
 home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/error_functions.c.s
@@ -150,7 +150,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/e
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 
 home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c.o
@@ -158,7 +158,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/get_num.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.o
 
 home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c.i
@@ -166,7 +166,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/get_num.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.i
 
 home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c.s
@@ -174,32 +174,56 @@ home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/get_num.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.s
 
-src/signals_block.o: src/signals_block.c.o
-.PHONY : src/signals_block.o
+lib/signal_functions.o: lib/signal_functions.c.o
+.PHONY : lib/signal_functions.o
 
 # target to build an object file
-src/signals_block.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/src/signals_block.c.o
-.PHONY : src/signals_block.c.o
+lib/signal_functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/lib/signal_functions.c.o
+.PHONY : lib/signal_functions.c.o
 
-src/signals_block.i: src/signals_block.c.i
-.PHONY : src/signals_block.i
+lib/signal_functions.i: lib/signal_functions.c.i
+.PHONY : lib/signal_functions.i
 
 # target to preprocess a source file
-src/signals_block.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/src/signals_block.c.i
-.PHONY : src/signals_block.c.i
+lib/signal_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/lib/signal_functions.c.i
+.PHONY : lib/signal_functions.c.i
 
-src/signals_block.s: src/signals_block.c.s
-.PHONY : src/signals_block.s
+lib/signal_functions.s: lib/signal_functions.c.s
+.PHONY : lib/signal_functions.s
 
 # target to generate assembly for a file
-src/signals_block.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGNALS_BLOCK.dir/build.make CMakeFiles/SIGNALS_BLOCK.dir/src/signals_block.c.s
-.PHONY : src/signals_block.c.s
+lib/signal_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/lib/signal_functions.c.s
+.PHONY : lib/signal_functions.c.s
+
+src/sig_receiver.o: src/sig_receiver.c.o
+.PHONY : src/sig_receiver.o
+
+# target to build an object file
+src/sig_receiver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/src/sig_receiver.c.o
+.PHONY : src/sig_receiver.c.o
+
+src/sig_receiver.i: src/sig_receiver.c.i
+.PHONY : src/sig_receiver.i
+
+# target to preprocess a source file
+src/sig_receiver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/src/sig_receiver.c.i
+.PHONY : src/sig_receiver.c.i
+
+src/sig_receiver.s: src/sig_receiver.c.s
+.PHONY : src/sig_receiver.s
+
+# target to generate assembly for a file
+src/sig_receiver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIG_RECEIVER.dir/build.make CMakeFiles/SIG_RECEIVER.dir/src/sig_receiver.c.s
+.PHONY : src/sig_receiver.c.s
 
 # Help Target
 help:
@@ -209,16 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SIGNALS_BLOCK"
+	@echo "... SIG_RECEIVER"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.s"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.s"
-	@echo "... src/signals_block.o"
-	@echo "... src/signals_block.i"
-	@echo "... src/signals_block.s"
+	@echo "... lib/signal_functions.o"
+	@echo "... lib/signal_functions.i"
+	@echo "... lib/signal_functions.s"
+	@echo "... src/sig_receiver.o"
+	@echo "... src/sig_receiver.i"
+	@echo "... src/sig_receiver.s"
 .PHONY : help
 
 
