@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/firefly/Codes/C/TLPI/signals/../lib -I/home/firefly/Codes/C/TLPI/signals/./lib
+C_INCLUDES = -I/home/firefly/Codes/C/TLPI/signals/lib -I/home/firefly/Codes/C/TLPI/signals/../lib
 
-C_FLAGS = -g
+C_FLAGS = -g -Wall -Wextra -g -std=gnu99
 

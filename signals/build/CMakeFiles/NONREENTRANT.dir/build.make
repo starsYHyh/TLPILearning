@@ -69,10 +69,24 @@ include CMakeFiles/NONREENTRANT.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NONREENTRANT.dir/flags.make
 
+CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o: CMakeFiles/NONREENTRANT.dir/flags.make
+CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o: ../lib/signal_functions.c
+CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o: CMakeFiles/NONREENTRANT.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o -MF CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o.d -o CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o -c /home/firefly/Codes/C/TLPI/signals/lib/signal_functions.c
+
+CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/firefly/Codes/C/TLPI/signals/lib/signal_functions.c > CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.i
+
+CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/firefly/Codes/C/TLPI/signals/lib/signal_functions.c -o CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.s
+
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o: CMakeFiles/NONREENTRANT.dir/flags.make
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o: /home/firefly/Codes/C/TLPI/lib/error_functions.c
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o: CMakeFiles/NONREENTRANT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o -MF CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o.d -o CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o -c /home/firefly/Codes/C/TLPI/lib/error_functions.c
 
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s: c
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o: CMakeFiles/NONREENTRANT.dir/flags.make
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o: /home/firefly/Codes/C/TLPI/lib/get_num.c
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o: CMakeFiles/NONREENTRANT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o -MF CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o.d -o CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o -c /home/firefly/Codes/C/TLPI/lib/get_num.c
 
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i: cmake_force
@@ -96,20 +110,6 @@ CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i: cmake_for
 CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/firefly/Codes/C/TLPI/lib/get_num.c -o CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
-
-CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o: CMakeFiles/NONREENTRANT.dir/flags.make
-CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o: ../lib/signal_functions.c
-CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o: CMakeFiles/NONREENTRANT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o -MF CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o.d -o CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o -c /home/firefly/Codes/C/TLPI/signals/lib/signal_functions.c
-
-CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/firefly/Codes/C/TLPI/signals/lib/signal_functions.c > CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.i
-
-CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/firefly/Codes/C/TLPI/signals/lib/signal_functions.c -o CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.s
 
 CMakeFiles/NONREENTRANT.dir/src/nonreentrant.c.o: CMakeFiles/NONREENTRANT.dir/flags.make
 CMakeFiles/NONREENTRANT.dir/src/nonreentrant.c.o: ../src/nonreentrant.c
@@ -127,17 +127,17 @@ CMakeFiles/NONREENTRANT.dir/src/nonreentrant.c.s: cmake_force
 
 # Object files for target NONREENTRANT
 NONREENTRANT_OBJECTS = \
+"CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o" \
 "CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o" \
 "CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o" \
-"CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o" \
 "CMakeFiles/NONREENTRANT.dir/src/nonreentrant.c.o"
 
 # External object files for target NONREENTRANT
 NONREENTRANT_EXTERNAL_OBJECTS =
 
+../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o
 ../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 ../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
-../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/lib/signal_functions.c.o
 ../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/src/nonreentrant.c.o
 ../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/build.make
 ../bin/NONREENTRANT: CMakeFiles/NONREENTRANT.dir/link.txt
