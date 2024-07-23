@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(FILEIO)
+project(SIGNALS)
 
 aux_source_directory(../lib LIBSRC) # 所有项目公用的
 
@@ -14,8 +14,10 @@ set(SRC ${PROJECT_SOURCE_DIR}/src)
 
 set(CMAKE_BUILD_TYPE "Debug")
 
-add_executable(SIG_RECEIVER
+link_libraries(crypt)
+
+add_executable(NONREENTRANT
     ${LIBSRC}
     ${LOCLIBSRC}
-    ${SRC}/sig_receiver.c
+    ${SRC}/nonreentrant.c
 )
