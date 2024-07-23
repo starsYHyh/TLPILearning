@@ -42,6 +42,9 @@ int main(int argc, char *argv[]) {
     if (sigaction(SIGINT, &sa, NULL) == -1)
         errExit("sigaction");
 
+    // 在这个无限循环中，不断对str1进行加密，并与正确结果进行比较
+    // 如果str1在加密的过程中不被打断，则会得到正确结果，但是如果被打断并在处理器函数中对str2进行加密
+    // 则会对str1加密的结果产生污染，导致该加密的结果不正确，以此来判断
     for (callNum = 1, mismatch = 0; ; callNum++) {
         if (strcmp(crypt(argv[1], "xx"), cr1) != 0) {
             mismatch++;
