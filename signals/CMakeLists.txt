@@ -39,8 +39,16 @@ elseif(CMAKE_BUILD_TYPE STREQUAL "Release")
     add_compile_options(-O3)
 endif()
 
-add_executable(NONREENTRANT
+# 将可执行文件的名字存储在变量中
+set(EXE_NAME "SIGMASK_SIGLONGJMP")
+
+add_executable(${EXE_NAME}
     ${LIBSRC}
     ${LOCLIBSRC}
-    ${SRC_DIR}/nonreentrant.c
+    ${SRC_DIR}/sigmask_longjmp.c
 )
+
+# 针对于SIGMASK_SIGLONGJMP添加宏定义USE_SIGSETJMP
+if(${EXE_NAME} STREQUAL "SIGMASK_SIGLONGJMP")
+    target_compile_definitions(SIGMASK_SIGLONGJMP PRIVATE USE_SIGSETJMP)
+endif()

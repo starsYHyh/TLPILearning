@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/signals/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/NONREENTRANT.dir/all
+all: CMakeFiles/SIGMASK_SIGLONGJMP.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/NONREENTRANT.dir/clean
+clean: CMakeFiles/SIGMASK_SIGLONGJMP.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NONREENTRANT.dir
+# Target rules for target CMakeFiles/SIGMASK_SIGLONGJMP.dir
 
 # All Build rule for target.
-CMakeFiles/NONREENTRANT.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NONREENTRANT.dir/build.make CMakeFiles/NONREENTRANT.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NONREENTRANT.dir/build.make CMakeFiles/NONREENTRANT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target NONREENTRANT"
-.PHONY : CMakeFiles/NONREENTRANT.dir/all
+CMakeFiles/SIGMASK_SIGLONGJMP.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target SIGMASK_SIGLONGJMP"
+.PHONY : CMakeFiles/SIGMASK_SIGLONGJMP.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NONREENTRANT.dir/rule: cmake_check_build_system
+CMakeFiles/SIGMASK_SIGLONGJMP.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NONREENTRANT.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SIGMASK_SIGLONGJMP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 0
-.PHONY : CMakeFiles/NONREENTRANT.dir/rule
+.PHONY : CMakeFiles/SIGMASK_SIGLONGJMP.dir/rule
 
 # Convenience name for target.
-NONREENTRANT: CMakeFiles/NONREENTRANT.dir/rule
-.PHONY : NONREENTRANT
+SIGMASK_SIGLONGJMP: CMakeFiles/SIGMASK_SIGLONGJMP.dir/rule
+.PHONY : SIGMASK_SIGLONGJMP
 
 # clean rule for target.
-CMakeFiles/NONREENTRANT.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NONREENTRANT.dir/build.make CMakeFiles/NONREENTRANT.dir/clean
-.PHONY : CMakeFiles/NONREENTRANT.dir/clean
+CMakeFiles/SIGMASK_SIGLONGJMP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/clean
+.PHONY : CMakeFiles/SIGMASK_SIGLONGJMP.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
