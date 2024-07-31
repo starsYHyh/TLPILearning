@@ -39,5 +39,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/SIGMASK_SIGLONGJMP.dir/DependInfo.cmake"
+  "CMakeFiles/T_SIGALTSTACK.dir/DependInfo.cmake"
   )

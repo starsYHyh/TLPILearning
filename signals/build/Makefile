@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SIGMASK_SIGLONGJMP
+# Target rules for targets named T_SIGALTSTACK
 
 # Build rule for target.
-SIGMASK_SIGLONGJMP: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SIGMASK_SIGLONGJMP
-.PHONY : SIGMASK_SIGLONGJMP
+T_SIGALTSTACK: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 T_SIGALTSTACK
+.PHONY : T_SIGALTSTACK
 
 # fast build rule for target.
-SIGMASK_SIGLONGJMP/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/build
-.PHONY : SIGMASK_SIGLONGJMP/fast
+T_SIGALTSTACK/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/build
+.PHONY : T_SIGALTSTACK/fast
 
 home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.o
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.o
 
 home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/error_functions.c.i
@@ -142,7 +142,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/e
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.i
 
 home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/error_functions.c.s
@@ -150,7 +150,7 @@ home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/e
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/error_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.s
 
 home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c.o
@@ -158,7 +158,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to build an object file
 home/firefly/Codes/C/TLPI/lib/get_num.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.o
 
 home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c.i
@@ -166,7 +166,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to preprocess a source file
 home/firefly/Codes/C/TLPI/lib/get_num.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.i
 
 home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c.s
@@ -174,7 +174,7 @@ home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c
 
 # target to generate assembly for a file
 home/firefly/Codes/C/TLPI/lib/get_num.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
 .PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.s
 
 lib/signal_functions.o: lib/signal_functions.c.o
@@ -182,7 +182,7 @@ lib/signal_functions.o: lib/signal_functions.c.o
 
 # target to build an object file
 lib/signal_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/lib/signal_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/lib/signal_functions.c.o
 .PHONY : lib/signal_functions.c.o
 
 lib/signal_functions.i: lib/signal_functions.c.i
@@ -190,7 +190,7 @@ lib/signal_functions.i: lib/signal_functions.c.i
 
 # target to preprocess a source file
 lib/signal_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/lib/signal_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/lib/signal_functions.c.i
 .PHONY : lib/signal_functions.c.i
 
 lib/signal_functions.s: lib/signal_functions.c.s
@@ -198,32 +198,32 @@ lib/signal_functions.s: lib/signal_functions.c.s
 
 # target to generate assembly for a file
 lib/signal_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/lib/signal_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/lib/signal_functions.c.s
 .PHONY : lib/signal_functions.c.s
 
-src/sigmask_longjmp.o: src/sigmask_longjmp.c.o
-.PHONY : src/sigmask_longjmp.o
+src/t_sigaltstack.o: src/t_sigaltstack.c.o
+.PHONY : src/t_sigaltstack.o
 
 # target to build an object file
-src/sigmask_longjmp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/src/sigmask_longjmp.c.o
-.PHONY : src/sigmask_longjmp.c.o
+src/t_sigaltstack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/src/t_sigaltstack.c.o
+.PHONY : src/t_sigaltstack.c.o
 
-src/sigmask_longjmp.i: src/sigmask_longjmp.c.i
-.PHONY : src/sigmask_longjmp.i
+src/t_sigaltstack.i: src/t_sigaltstack.c.i
+.PHONY : src/t_sigaltstack.i
 
 # target to preprocess a source file
-src/sigmask_longjmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/src/sigmask_longjmp.c.i
-.PHONY : src/sigmask_longjmp.c.i
+src/t_sigaltstack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/src/t_sigaltstack.c.i
+.PHONY : src/t_sigaltstack.c.i
 
-src/sigmask_longjmp.s: src/sigmask_longjmp.c.s
-.PHONY : src/sigmask_longjmp.s
+src/t_sigaltstack.s: src/t_sigaltstack.c.s
+.PHONY : src/t_sigaltstack.s
 
 # target to generate assembly for a file
-src/sigmask_longjmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIGMASK_SIGLONGJMP.dir/build.make CMakeFiles/SIGMASK_SIGLONGJMP.dir/src/sigmask_longjmp.c.s
-.PHONY : src/sigmask_longjmp.c.s
+src/t_sigaltstack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/src/t_sigaltstack.c.s
+.PHONY : src/t_sigaltstack.c.s
 
 # Help Target
 help:
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SIGMASK_SIGLONGJMP"
+	@echo "... T_SIGALTSTACK"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.o"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.i"
 	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.s"
@@ -243,9 +243,9 @@ help:
 	@echo "... lib/signal_functions.o"
 	@echo "... lib/signal_functions.i"
 	@echo "... lib/signal_functions.s"
-	@echo "... src/sigmask_longjmp.o"
-	@echo "... src/sigmask_longjmp.i"
-	@echo "... src/sigmask_longjmp.s"
+	@echo "... src/t_sigaltstack.o"
+	@echo "... src/t_sigaltstack.i"
+	@echo "... src/t_sigaltstack.s"
 .PHONY : help
 
 

@@ -40,12 +40,12 @@ elseif(CMAKE_BUILD_TYPE STREQUAL "Release")
 endif()
 
 # 将可执行文件的名字存储在变量中
-set(EXE_NAME "SIGMASK_SIGLONGJMP")
+set(EXE_NAME "T_SIGALTSTACK")
 
 add_executable(${EXE_NAME}
     ${LIBSRC}
     ${LOCLIBSRC}
-    ${SRC_DIR}/sigmask_longjmp.c
+    ${SRC_DIR}/t_sigaltstack.c
 )
 
 # 针对于SIGMASK_SIGLONGJMP添加宏定义USE_SIGSETJMP

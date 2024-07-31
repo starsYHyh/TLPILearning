@@ -16,6 +16,17 @@ static jmp_buf env;
 static void handler(int sig) {
     printf("Received signal %d (%s), signal mask is:\n", sig, strsignal(sig));
     printSigMask(stdout, NULL);
+    /*
+        接收到信号的时机有两种：
+        1. 在setjmp(env)之前，在这种情况下，跳转目标尚未建立，
+            这将导致处理器函数使用尚未初始化的env缓冲区来执行非本地跳转
+        2. 在setjmp(env)之后，在这种情况下，跳转目标被建立，env已被初始化
+            在执行longjmp()/siglongjmp()之后，可以正确地将一些信息保存。
+        为了避免出现第一种情况，设置了canJump变量，当第一次执行了setjmp(env)之后
+        canjump被设置为1，代表着可以正确执行非本地跳转
+        然后在此处，若canjump为0，说明接收到信号的时机是在set之前，
+        则不能够进行跳转，而是直接从处理器函数返回   
+    */
     if (!canJump) { // 若canJump为0
         printf("'env' buffer not yet set, doing a simple return\n");
         return;
@@ -47,6 +58,7 @@ int main(int argc, char *argv[]) {
     if (sigsetjmp(senv, 1) == 0)
 #else
     printf("Calling setjmp()\n");
+    // 设置跳转目标，并初始化env
     if (setjmp(env) == 0)
 #endif
         canJump = 1;
