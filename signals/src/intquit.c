@@ -13,7 +13,7 @@ static void sigHandler(int sig) {
         return;
     }
 
-    printf("Caught SIGQUIT - that's all folks!\n"); // 若是捕捉到SIGQUIT，则直推退出执行
+    printf("Caught SIGQUIT - that's all folks!\n"); // 若是捕捉到SIGQUIT，则直接退出执行
     exit(EXIT_SUCCESS);
 }
 

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/signals/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/T_SIGALTSTACK.dir/all
+all: CMakeFiles/DEMO_SIGFPE.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/T_SIGALTSTACK.dir/clean
+clean: CMakeFiles/DEMO_SIGFPE.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/T_SIGALTSTACK.dir
+# Target rules for target CMakeFiles/DEMO_SIGFPE.dir
 
 # All Build rule for target.
-CMakeFiles/T_SIGALTSTACK.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target T_SIGALTSTACK"
-.PHONY : CMakeFiles/T_SIGALTSTACK.dir/all
+CMakeFiles/DEMO_SIGFPE.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target DEMO_SIGFPE"
+.PHONY : CMakeFiles/DEMO_SIGFPE.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/T_SIGALTSTACK.dir/rule: cmake_check_build_system
+CMakeFiles/DEMO_SIGFPE.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T_SIGALTSTACK.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DEMO_SIGFPE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 0
-.PHONY : CMakeFiles/T_SIGALTSTACK.dir/rule
+.PHONY : CMakeFiles/DEMO_SIGFPE.dir/rule
 
 # Convenience name for target.
-T_SIGALTSTACK: CMakeFiles/T_SIGALTSTACK.dir/rule
-.PHONY : T_SIGALTSTACK
+DEMO_SIGFPE: CMakeFiles/DEMO_SIGFPE.dir/rule
+.PHONY : DEMO_SIGFPE
 
 # clean rule for target.
-CMakeFiles/T_SIGALTSTACK.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGALTSTACK.dir/build.make CMakeFiles/T_SIGALTSTACK.dir/clean
-.PHONY : CMakeFiles/T_SIGALTSTACK.dir/clean
+CMakeFiles/DEMO_SIGFPE.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/clean
+.PHONY : CMakeFiles/DEMO_SIGFPE.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

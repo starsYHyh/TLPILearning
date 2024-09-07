@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/DEMO_SIGFPE.dir/lib/signal_functions.c.o CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/DEMO_SIGFPE.dir/src/demo_SIGFPE.c.o -o ../bin/DEMO_SIGFPE  -lcrypt 
