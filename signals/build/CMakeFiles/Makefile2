@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/firefly/Codes/C/TLPI/signals
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/C/TLPILearning/signals
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/signals/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/C/TLPILearning/signals/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DEMO_SIGFPE.dir/all
+all: CMakeFiles/CATCH_RTSIGS.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DEMO_SIGFPE.dir/clean
+clean: CMakeFiles/CATCH_RTSIGS.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DEMO_SIGFPE.dir
+# Target rules for target CMakeFiles/CATCH_RTSIGS.dir
 
 # All Build rule for target.
-CMakeFiles/DEMO_SIGFPE.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/firefly/Codes/C/TLPI/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target DEMO_SIGFPE"
-.PHONY : CMakeFiles/DEMO_SIGFPE.dir/all
+CMakeFiles/CATCH_RTSIGS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target CATCH_RTSIGS"
+.PHONY : CMakeFiles/CATCH_RTSIGS.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DEMO_SIGFPE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DEMO_SIGFPE.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 0
-.PHONY : CMakeFiles/DEMO_SIGFPE.dir/rule
+CMakeFiles/CATCH_RTSIGS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CATCH_RTSIGS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles 0
+.PHONY : CMakeFiles/CATCH_RTSIGS.dir/rule
 
 # Convenience name for target.
-DEMO_SIGFPE: CMakeFiles/DEMO_SIGFPE.dir/rule
-.PHONY : DEMO_SIGFPE
+CATCH_RTSIGS: CMakeFiles/CATCH_RTSIGS.dir/rule
+.PHONY : CATCH_RTSIGS
 
 # clean rule for target.
-CMakeFiles/DEMO_SIGFPE.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/clean
-.PHONY : CMakeFiles/DEMO_SIGFPE.dir/clean
+CMakeFiles/CATCH_RTSIGS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/clean
+.PHONY : CMakeFiles/CATCH_RTSIGS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

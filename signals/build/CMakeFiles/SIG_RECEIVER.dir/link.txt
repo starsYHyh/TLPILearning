@@ -1,1 +1,0 @@
-/usr/bin/cc -g -rdynamic CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/SIG_RECEIVER.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/SIG_RECEIVER.dir/lib/signal_functions.c.o CMakeFiles/SIG_RECEIVER.dir/src/sig_receiver.c.o -o ../bin/SIG_RECEIVER 

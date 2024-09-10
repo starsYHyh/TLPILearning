@@ -1,1 +1,0 @@
-/usr/bin/cc -g -rdynamic CMakeFiles/SIG_SENDER.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/SIG_SENDER.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/SIG_SENDER.dir/src/sig_sender.c.o -o ../bin/SIG_SENDER 

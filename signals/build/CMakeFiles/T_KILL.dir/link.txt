@@ -1,1 +1,0 @@
-/usr/bin/cc -g -rdynamic CMakeFiles/T_KILL.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/T_KILL.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/T_KILL.dir/src/t_kill.c.o -o ../bin/T_KILL 

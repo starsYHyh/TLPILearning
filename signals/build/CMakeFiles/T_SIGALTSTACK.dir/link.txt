@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/T_SIGALTSTACK.dir/lib/signal_functions.c.o CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/T_SIGALTSTACK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/T_SIGALTSTACK.dir/src/t_sigaltstack.c.o -o ../bin/T_SIGALTSTACK  -lcrypt 

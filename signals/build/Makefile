@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/firefly/Codes/C/TLPI/signals
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/C/TLPILearning/signals
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/firefly/Codes/C/TLPI/signals/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/C/TLPILearning/signals/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles /home/firefly/Codes/C/TLPI/signals/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles /home/ubuntu/Documents/C/TLPILearning/signals/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/Codes/C/TLPI/signals/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,72 +117,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DEMO_SIGFPE
+# Target rules for targets named CATCH_RTSIGS
 
 # Build rule for target.
-DEMO_SIGFPE: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DEMO_SIGFPE
-.PHONY : DEMO_SIGFPE
+CATCH_RTSIGS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CATCH_RTSIGS
+.PHONY : CATCH_RTSIGS
 
 # fast build rule for target.
-DEMO_SIGFPE/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/build
-.PHONY : DEMO_SIGFPE/fast
+CATCH_RTSIGS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/build
+.PHONY : CATCH_RTSIGS/fast
 
-home/firefly/Codes/C/TLPI/lib/error_functions.o: home/firefly/Codes/C/TLPI/lib/error_functions.c.o
-.PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.o
-
-# target to build an object file
-home/firefly/Codes/C/TLPI/lib/error_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o
-.PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.o
-
-home/firefly/Codes/C/TLPI/lib/error_functions.i: home/firefly/Codes/C/TLPI/lib/error_functions.c.i
-.PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.i
-
-# target to preprocess a source file
-home/firefly/Codes/C/TLPI/lib/error_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.i
-.PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.i
-
-home/firefly/Codes/C/TLPI/lib/error_functions.s: home/firefly/Codes/C/TLPI/lib/error_functions.c.s
-.PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.s
-
-# target to generate assembly for a file
-home/firefly/Codes/C/TLPI/lib/error_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.s
-.PHONY : home/firefly/Codes/C/TLPI/lib/error_functions.c.s
-
-home/firefly/Codes/C/TLPI/lib/get_num.o: home/firefly/Codes/C/TLPI/lib/get_num.c.o
-.PHONY : home/firefly/Codes/C/TLPI/lib/get_num.o
+home/ubuntu/Documents/C/TLPILearning/lib/error_functions.o: home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.o
 
 # target to build an object file
-home/firefly/Codes/C/TLPI/lib/get_num.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o
-.PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.o
+home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
 
-home/firefly/Codes/C/TLPI/lib/get_num.i: home/firefly/Codes/C/TLPI/lib/get_num.c.i
-.PHONY : home/firefly/Codes/C/TLPI/lib/get_num.i
+home/ubuntu/Documents/C/TLPILearning/lib/error_functions.i: home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.i
 
 # target to preprocess a source file
-home/firefly/Codes/C/TLPI/lib/get_num.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.i
-.PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.i
+home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
 
-home/firefly/Codes/C/TLPI/lib/get_num.s: home/firefly/Codes/C/TLPI/lib/get_num.c.s
-.PHONY : home/firefly/Codes/C/TLPI/lib/get_num.s
+home/ubuntu/Documents/C/TLPILearning/lib/error_functions.s: home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.s
 
 # target to generate assembly for a file
-home/firefly/Codes/C/TLPI/lib/get_num.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.s
-.PHONY : home/firefly/Codes/C/TLPI/lib/get_num.c.s
+home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
+
+home/ubuntu/Documents/C/TLPILearning/lib/get_num.o: home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.o
+
+# target to build an object file
+home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
+
+home/ubuntu/Documents/C/TLPILearning/lib/get_num.i: home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.i
+
+# target to preprocess a source file
+home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
+
+home/ubuntu/Documents/C/TLPILearning/lib/get_num.s: home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.s
+
+# target to generate assembly for a file
+home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
+.PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
 
 lib/signal_functions.o: lib/signal_functions.c.o
 .PHONY : lib/signal_functions.o
 
 # target to build an object file
 lib/signal_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/lib/signal_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/lib/signal_functions.c.o
 .PHONY : lib/signal_functions.c.o
 
 lib/signal_functions.i: lib/signal_functions.c.i
@@ -190,7 +190,7 @@ lib/signal_functions.i: lib/signal_functions.c.i
 
 # target to preprocess a source file
 lib/signal_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/lib/signal_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/lib/signal_functions.c.i
 .PHONY : lib/signal_functions.c.i
 
 lib/signal_functions.s: lib/signal_functions.c.s
@@ -198,32 +198,32 @@ lib/signal_functions.s: lib/signal_functions.c.s
 
 # target to generate assembly for a file
 lib/signal_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/lib/signal_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/lib/signal_functions.c.s
 .PHONY : lib/signal_functions.c.s
 
-src/demo_SIGFPE.o: src/demo_SIGFPE.c.o
-.PHONY : src/demo_SIGFPE.o
+src/catch_rtsigs.o: src/catch_rtsigs.c.o
+.PHONY : src/catch_rtsigs.o
 
 # target to build an object file
-src/demo_SIGFPE.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/src/demo_SIGFPE.c.o
-.PHONY : src/demo_SIGFPE.c.o
+src/catch_rtsigs.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/src/catch_rtsigs.c.o
+.PHONY : src/catch_rtsigs.c.o
 
-src/demo_SIGFPE.i: src/demo_SIGFPE.c.i
-.PHONY : src/demo_SIGFPE.i
+src/catch_rtsigs.i: src/catch_rtsigs.c.i
+.PHONY : src/catch_rtsigs.i
 
 # target to preprocess a source file
-src/demo_SIGFPE.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/src/demo_SIGFPE.c.i
-.PHONY : src/demo_SIGFPE.c.i
+src/catch_rtsigs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/src/catch_rtsigs.c.i
+.PHONY : src/catch_rtsigs.c.i
 
-src/demo_SIGFPE.s: src/demo_SIGFPE.c.s
-.PHONY : src/demo_SIGFPE.s
+src/catch_rtsigs.s: src/catch_rtsigs.c.s
+.PHONY : src/catch_rtsigs.s
 
 # target to generate assembly for a file
-src/demo_SIGFPE.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DEMO_SIGFPE.dir/build.make CMakeFiles/DEMO_SIGFPE.dir/src/demo_SIGFPE.c.s
-.PHONY : src/demo_SIGFPE.c.s
+src/catch_rtsigs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/src/catch_rtsigs.c.s
+.PHONY : src/catch_rtsigs.c.s
 
 # Help Target
 help:
@@ -233,19 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DEMO_SIGFPE"
-	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.o"
-	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.i"
-	@echo "... home/firefly/Codes/C/TLPI/lib/error_functions.s"
-	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.o"
-	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.i"
-	@echo "... home/firefly/Codes/C/TLPI/lib/get_num.s"
+	@echo "... CATCH_RTSIGS"
+	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/error_functions.o"
+	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/error_functions.i"
+	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/error_functions.s"
+	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/get_num.o"
+	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/get_num.i"
+	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/get_num.s"
 	@echo "... lib/signal_functions.o"
 	@echo "... lib/signal_functions.i"
 	@echo "... lib/signal_functions.s"
-	@echo "... src/demo_SIGFPE.o"
-	@echo "... src/demo_SIGFPE.i"
-	@echo "... src/demo_SIGFPE.s"
+	@echo "... src/catch_rtsigs.o"
+	@echo "... src/catch_rtsigs.i"
+	@echo "... src/catch_rtsigs.s"
 .PHONY : help
 
 
