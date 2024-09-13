@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/T_SIGWAITINFO.dir/lib/signal_functions.c.o CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o CMakeFiles/T_SIGWAITINFO.dir/src/t_sigwaitinfo.c.o -o ../bin/T_SIGWAITINFO  -lcrypt 

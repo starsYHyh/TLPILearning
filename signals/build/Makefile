@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CATCH_RTSIGS
+# Target rules for targets named T_SIGWAITINFO
 
 # Build rule for target.
-CATCH_RTSIGS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CATCH_RTSIGS
-.PHONY : CATCH_RTSIGS
+T_SIGWAITINFO: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 T_SIGWAITINFO
+.PHONY : T_SIGWAITINFO
 
 # fast build rule for target.
-CATCH_RTSIGS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/build
-.PHONY : CATCH_RTSIGS/fast
+T_SIGWAITINFO/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/build
+.PHONY : T_SIGWAITINFO/fast
 
 home/ubuntu/Documents/C/TLPILearning/lib/error_functions.o: home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.o
 
 # target to build an object file
 home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o
 
 home/ubuntu/Documents/C/TLPILearning/lib/error_functions.i: home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
@@ -142,7 +142,7 @@ home/ubuntu/Documents/C/TLPILearning/lib/error_functions.i: home/ubuntu/Document
 
 # target to preprocess a source file
 home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.i
 
 home/ubuntu/Documents/C/TLPILearning/lib/error_functions.s: home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
@@ -150,7 +150,7 @@ home/ubuntu/Documents/C/TLPILearning/lib/error_functions.s: home/ubuntu/Document
 
 # target to generate assembly for a file
 home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.s
 
 home/ubuntu/Documents/C/TLPILearning/lib/get_num.o: home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
@@ -158,7 +158,7 @@ home/ubuntu/Documents/C/TLPILearning/lib/get_num.o: home/ubuntu/Documents/C/TLPI
 
 # target to build an object file
 home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o
 
 home/ubuntu/Documents/C/TLPILearning/lib/get_num.i: home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
@@ -166,7 +166,7 @@ home/ubuntu/Documents/C/TLPILearning/lib/get_num.i: home/ubuntu/Documents/C/TLPI
 
 # target to preprocess a source file
 home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.i
 
 home/ubuntu/Documents/C/TLPILearning/lib/get_num.s: home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
@@ -174,7 +174,7 @@ home/ubuntu/Documents/C/TLPILearning/lib/get_num.s: home/ubuntu/Documents/C/TLPI
 
 # target to generate assembly for a file
 home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
 .PHONY : home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.s
 
 lib/signal_functions.o: lib/signal_functions.c.o
@@ -182,7 +182,7 @@ lib/signal_functions.o: lib/signal_functions.c.o
 
 # target to build an object file
 lib/signal_functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/lib/signal_functions.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/lib/signal_functions.c.o
 .PHONY : lib/signal_functions.c.o
 
 lib/signal_functions.i: lib/signal_functions.c.i
@@ -190,7 +190,7 @@ lib/signal_functions.i: lib/signal_functions.c.i
 
 # target to preprocess a source file
 lib/signal_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/lib/signal_functions.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/lib/signal_functions.c.i
 .PHONY : lib/signal_functions.c.i
 
 lib/signal_functions.s: lib/signal_functions.c.s
@@ -198,32 +198,32 @@ lib/signal_functions.s: lib/signal_functions.c.s
 
 # target to generate assembly for a file
 lib/signal_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/lib/signal_functions.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/lib/signal_functions.c.s
 .PHONY : lib/signal_functions.c.s
 
-src/catch_rtsigs.o: src/catch_rtsigs.c.o
-.PHONY : src/catch_rtsigs.o
+src/t_sigwaitinfo.o: src/t_sigwaitinfo.c.o
+.PHONY : src/t_sigwaitinfo.o
 
 # target to build an object file
-src/catch_rtsigs.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/src/catch_rtsigs.c.o
-.PHONY : src/catch_rtsigs.c.o
+src/t_sigwaitinfo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/src/t_sigwaitinfo.c.o
+.PHONY : src/t_sigwaitinfo.c.o
 
-src/catch_rtsigs.i: src/catch_rtsigs.c.i
-.PHONY : src/catch_rtsigs.i
+src/t_sigwaitinfo.i: src/t_sigwaitinfo.c.i
+.PHONY : src/t_sigwaitinfo.i
 
 # target to preprocess a source file
-src/catch_rtsigs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/src/catch_rtsigs.c.i
-.PHONY : src/catch_rtsigs.c.i
+src/t_sigwaitinfo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/src/t_sigwaitinfo.c.i
+.PHONY : src/t_sigwaitinfo.c.i
 
-src/catch_rtsigs.s: src/catch_rtsigs.c.s
-.PHONY : src/catch_rtsigs.s
+src/t_sigwaitinfo.s: src/t_sigwaitinfo.c.s
+.PHONY : src/t_sigwaitinfo.s
 
 # target to generate assembly for a file
-src/catch_rtsigs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/src/catch_rtsigs.c.s
-.PHONY : src/catch_rtsigs.c.s
+src/t_sigwaitinfo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/src/t_sigwaitinfo.c.s
+.PHONY : src/t_sigwaitinfo.c.s
 
 # Help Target
 help:
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CATCH_RTSIGS"
+	@echo "... T_SIGWAITINFO"
 	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/error_functions.o"
 	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/error_functions.i"
 	@echo "... home/ubuntu/Documents/C/TLPILearning/lib/error_functions.s"
@@ -243,9 +243,9 @@ help:
 	@echo "... lib/signal_functions.o"
 	@echo "... lib/signal_functions.i"
 	@echo "... lib/signal_functions.s"
-	@echo "... src/catch_rtsigs.o"
-	@echo "... src/catch_rtsigs.i"
-	@echo "... src/catch_rtsigs.s"
+	@echo "... src/t_sigwaitinfo.o"
+	@echo "... src/t_sigwaitinfo.i"
+	@echo "... src/t_sigwaitinfo.s"
 .PHONY : help
 
 

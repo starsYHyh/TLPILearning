@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/T_SIGSUSPEND.dir/lib/signal_functions.c.o CMakeFiles/T_SIGSUSPEND.dir/home/ubuntu/Documents/C/TLPILearning/lib/error_functions.c.o CMakeFiles/T_SIGSUSPEND.dir/home/ubuntu/Documents/C/TLPILearning/lib/get_num.c.o CMakeFiles/T_SIGSUSPEND.dir/src/t_sigsuspend.c.o -o ../bin/T_SIGSUSPEND  -lcrypt 

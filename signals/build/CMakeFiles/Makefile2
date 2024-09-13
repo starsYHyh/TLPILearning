@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/Documents/C/TLPILearning/signals/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CATCH_RTSIGS.dir/all
+all: CMakeFiles/T_SIGWAITINFO.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CATCH_RTSIGS.dir/clean
+clean: CMakeFiles/T_SIGWAITINFO.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CATCH_RTSIGS.dir
+# Target rules for target CMakeFiles/T_SIGWAITINFO.dir
 
 # All Build rule for target.
-CMakeFiles/CATCH_RTSIGS.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target CATCH_RTSIGS"
-.PHONY : CMakeFiles/CATCH_RTSIGS.dir/all
+CMakeFiles/T_SIGWAITINFO.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target T_SIGWAITINFO"
+.PHONY : CMakeFiles/T_SIGWAITINFO.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CATCH_RTSIGS.dir/rule: cmake_check_build_system
+CMakeFiles/T_SIGWAITINFO.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CATCH_RTSIGS.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T_SIGWAITINFO.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/C/TLPILearning/signals/build/CMakeFiles 0
-.PHONY : CMakeFiles/CATCH_RTSIGS.dir/rule
+.PHONY : CMakeFiles/T_SIGWAITINFO.dir/rule
 
 # Convenience name for target.
-CATCH_RTSIGS: CMakeFiles/CATCH_RTSIGS.dir/rule
-.PHONY : CATCH_RTSIGS
+T_SIGWAITINFO: CMakeFiles/T_SIGWAITINFO.dir/rule
+.PHONY : T_SIGWAITINFO
 
 # clean rule for target.
-CMakeFiles/CATCH_RTSIGS.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATCH_RTSIGS.dir/build.make CMakeFiles/CATCH_RTSIGS.dir/clean
-.PHONY : CMakeFiles/CATCH_RTSIGS.dir/clean
+CMakeFiles/T_SIGWAITINFO.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T_SIGWAITINFO.dir/build.make CMakeFiles/T_SIGWAITINFO.dir/clean
+.PHONY : CMakeFiles/T_SIGWAITINFO.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

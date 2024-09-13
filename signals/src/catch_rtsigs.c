@@ -7,6 +7,10 @@ static volatile int handlerSleepTime;
 static volatile int sigCnt = 0;
 static volatile int allDone = 0;
 
+/*
+    处理实时信号
+*/
+
 static void siginfoHandler(int sig, siginfo_t *si, void *ucontext) {
     if (sig == SIGINT || sig == SIGTERM) {
         allDone = 1;
@@ -15,7 +19,6 @@ static void siginfoHandler(int sig, siginfo_t *si, void *ucontext) {
 
     sigCnt++;
     printf("caught signal %d\n", sig);
-
     printf("    si_signo=%d, si_code=%d(%s), ", si->si_signo, si->si_code,
         (si->si_code == SI_USER) ? "SI_USER" :
         (si->si_code == SI_QUEUE) ? "SI_QUEUE" : "other"
@@ -27,7 +30,7 @@ static void siginfoHandler(int sig, siginfo_t *si, void *ucontext) {
 }
 
 int main(int argc, char *argv[]) {
-    struct sigaction sa;
+    struct sigaction sa;    
     int sig;
     sigset_t prevMask, blockMask;
 
