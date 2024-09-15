@@ -1,0 +1,3 @@
+/home/firefly/Codes/C/TLPI/procexec/build/CMakeFiles/T_FORK.dir
+/home/firefly/Codes/C/TLPI/procexec/build/CMakeFiles/edit_cache.dir
+/home/firefly/Codes/C/TLPI/procexec/build/CMakeFiles/rebuild_cache.dir

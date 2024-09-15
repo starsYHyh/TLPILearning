@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/T_FORK.dir/home/firefly/Codes/C/TLPI/lib/error_functions.c.o CMakeFiles/T_FORK.dir/home/firefly/Codes/C/TLPI/lib/get_num.c.o CMakeFiles/T_FORK.dir/src/t_fork.c.o -o ../bin/T_FORK  -lcrypt 
