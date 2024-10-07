@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10.0)
 
 # 项目名称和版本
-project(PROCEXEC VERSION 1.0 LANGUAGES C)
+project(PIPES VERSION 1.0 LANGUAGES C)
 
 # 设置C编译标准
 set(CMAKE_C_STANDARD 99)
@@ -40,10 +40,10 @@ elseif(CMAKE_BUILD_TYPE STREQUAL "Release")
 endif()
 
 # 将可执行文件的名字存储在变量中
-set(EXE_NAME "TEST")
+set(EXE_NAME "PIPE_LS_WC")
 
 add_executable(${EXE_NAME}
     ${LIBSRC}
     ${LOCLIBSRC}
-    ${SRC_DIR}/test.c
+    ${SRC_DIR}/pipe_ls_wc.c
 )

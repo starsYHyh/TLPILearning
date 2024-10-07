@@ -1,0 +1,4 @@
+total 8.0K
+-rw-r--r-- 1 firefly firefly    0 Oct  6 12:50 lsfile
+-rw-r--r-- 1 firefly firefly 1.8K Oct  6 10:37 pipe_ls_wc.c
+-rw-r--r-- 1 firefly firefly 1.8K Oct  6 10:42 pipe_ls_wc_2.c
